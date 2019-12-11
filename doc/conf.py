@@ -60,7 +60,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = "PACKAGE_NAME"  # string of your project name, for example, 'giddy'
-copyright = '2018, pysal developers'
+copyright = '2018-, pysal developers'
 author = 'pysal developers'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -254,7 +254,8 @@ numpydoc_use_plots = True
 # automatically document class members
 autodoc_default_options = {
     'members': True,
-    'undoc-members': True
+    'undoc-members': True,
+    'inherited-members': True
 }
 
 # display the source code for Plot directive
